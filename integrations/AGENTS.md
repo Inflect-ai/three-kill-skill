@@ -9,7 +9,7 @@ Before recording a conclusion, run the Three-Kill Skill.
 2. Name three rivals: one mechanical, one instrument, and one worst-case.
 3. Give each rival the cheapest discriminating check available now.
 4. Run the checks that take minutes and record the evidence.
-5. If a rival survives, make it the current finding. If checks remain open, mark the claim HELD.
+5. Use the protocol's SHIPS, REVISED, or HELD criteria. Name the finding the evidence supports. If the evidence cannot distinguish the explanations that matter, mark the claim HELD.
 ```
 
 Keep the resulting differential with the ticket, decision record, or report. It is evidence of how the conclusion was reached, not a ritual to complete after the answer is already decided.
@@ -24,4 +24,4 @@ Keep the resulting differential with the ticket, decision record, or report. It 
 
 - Do not run it for every casual question.
 - Do not manufacture three implausible alternatives just to satisfy the form.
-- Do not leave a surviving rival as a footnote while keeping the original conclusion.
+- Do not leave a better-supported rival as a footnote while keeping the original conclusion.

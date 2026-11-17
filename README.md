@@ -4,7 +4,7 @@ The first explanation can be coherent, plausible, and wrong. The Three-Kill Skil
 
 Before a claim enters a durable record, name three rival explanations and test each with the cheapest discriminating evidence available now.
 
-If a rival survives, it becomes the finding.
+If the evidence supports a rival over the original claim, revise the finding. Leave unresolved alternatives open.
 
 ## The rule
 
@@ -15,7 +15,7 @@ If a rival survives, it becomes the finding.
    - the worst-case explanation.
 3. Give each rival one cheap discriminating check.
 4. Run the checks now when they take minutes. Record what remains open.
-5. Revise the claim when a rival survives. Do not keep the original theory as the headline.
+5. Revise the claim when the evidence supports a rival over it. Hold the conclusion if the evidence still cannot distinguish between explanations.
 
 The point is not to make every decision slow. The point is to add a brief check at the exact moment a plausible answer begins to gather momentum.
 
@@ -26,16 +26,20 @@ The point is not to make every decision slow. The point is to add a brief check 
 - See a [sanitized worked example](examples/payment-report-investigation.md).
 - Add the protocol to an agent workflow with the [integration guide](integrations/AGENTS.md).
 
-## Status
+## Reuse and contributions
 
-Private preview. Public release, repository visibility, license, and contribution policy remain under review.
+InflectAI, Inc. licenses the original documentation, templates, examples, and agent-integration instructions in this repository under [Creative Commons Attribution 4.0 International](LICENSE). You may share and adapt them, including commercially, with attribution. The license does not cover the separately published founder essay, linked or cited third-party works, InflectAI names or trademarks, or software that may be added later. No endorsement is implied.
+
+See [Contributing](CONTRIBUTING.md) for how to submit corrections or examples.
 
 ## Lineage
 
-The protocol is informed by diagnostic-reasoning research, including work on premature closure. It is an operational practice, not medical advice and not a substitute for domain expertise.
+The protocol is informed by diagnostic-reasoning research, including [Graber, Franklin, and Gordon's 2005 study of diagnostic error in internal medicine](https://pubmed.ncbi.nlm.nih.gov/16009864/). It is an operational practice, not medical advice or a substitute for domain expertise.
 
 ## Citation
 
 If this protocol helps your team, cite it as:
 
-> InflectAI. *The Three-Kill Skill*. 2026. Repository release pending.
+> InflectAI, Inc., *The Three-Kill Skill* (2026), https://github.com/Inflect-ai/three-kill-skill, licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+For adaptations, say that you adapted the work and note that changes were made. Attribution can go in the workflow documentation or a linked credits page.

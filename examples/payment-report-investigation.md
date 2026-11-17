@@ -12,11 +12,11 @@ The report is 18 percent below the previous week. The first explanation is plaus
 | --- | --- | --- |
 | A report filter excluded one merchant segment. | Compare the report predicate to the prior-week version. | **Survived.** A new default excluded transactions with a blank optional campaign field. |
 | The reporting query is reading a stale replica. | Compare query timestamp and row count against the primary store. | Killed. Both match. |
-| The processor is dropping live transactions. | Compare processor settlement count with the primary transaction ledger. | Killed. Counts reconcile. |
+| Checkout is failing before payment requests reach the processor. | Check checkout completion rates and failures before payment submission. | Killed. Both are within the usual range. |
 
 ## Verdict
 
-**REVISED.** The payment processor is not dropping transactions. A report filter excluded a segment from the weekly view. The initial claim is removed from the incident record and replaced with the surviving explanation.
+**REVISED.** Processor settlement counts reconcile with the primary transaction ledger. Removing the new filter restores the excluded transactions and accounts for the report's shortfall. The finding is a reporting error. Keep the initial claim in the investigation history as superseded.
 
 ## Why this example exists
 

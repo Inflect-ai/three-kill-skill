@@ -26,7 +26,7 @@ VERDICT
 SHIPS | REVISED | HELD
 
 CURRENT FINDING
-<If a rival survived, write it here.>
+<Write the conclusion the evidence supports, or state what remains unresolved.>
 
 OPEN WORK
 <Owner and next check for anything not resolved in minutes.>

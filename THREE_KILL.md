@@ -38,15 +38,15 @@ For every rival, name one observation that would distinguish it from the others.
 
 Use the [template](templates/three-kill-differential.md).
 
-- **SHIPS:** all three rivals were killed by evidence.
-- **REVISED:** a rival survived. It is the finding now.
-- **HELD:** one or more discriminators remain open. The claim is a hypothesis, not a conclusion.
+- **SHIPS:** the evidence supports the original claim and rules out all three rivals.
+- **REVISED:** the evidence supports a rival over the original claim and resolves the competing explanations that matter to the decision. Record the revised finding.
+- **HELD:** the evidence does not yet distinguish the explanations that matter, or the original claim still lacks direct support. Keep the claim provisional and record the next check.
 
 ## Operating rules
 
 - Evidence, not confidence, kills a rival.
 - Agreement from dependent sources is still one witness.
-- A surviving rival replaces the original claim. It does not become a caveat.
+- A rival supported by evidence can replace the original claim. A rival you simply haven't ruled out is still open.
 - Keep the exercise proportional. The protocol is designed for minutes, not an all-day investigation.
 
 ## What this protocol does not do
