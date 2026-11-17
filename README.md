@@ -22,9 +22,44 @@ The point is not to make every decision slow. The point is to add a brief check 
 ## Start here
 
 - Read the full [protocol](THREE_KILL.md).
-- Copy the [differential template](templates/three-kill-differential.md) into a ticket, decision record, incident note, or agent instruction.
+- Copy the [differential template](skills/three-kill/templates/three-kill-differential.md) into a ticket, decision record, incident note, or agent instruction.
 - See a [sanitized worked example](examples/payment-report-investigation.md).
-- Add the protocol to an agent workflow with the [integration guide](integrations/AGENTS.md).
+- Install the shared skill below, or use the [manual integration guide](integrations/AGENTS.md) for other agents and team workflows.
+
+## Install in Codex or Claude Code
+
+Both clients use the same [skill folder](skills/three-kill), including its template. Run these commands in a terminal (macOS, Linux, or WSL):
+
+```sh
+git clone --depth 1 https://github.com/Inflect-ai/three-kill-skill.git
+cd three-kill-skill
+```
+
+Then run the block for your client from the checkout. You can run both blocks to install in both. The commands stop if that client already has a `three-kill` folder.
+
+### Codex
+
+```sh
+skill_dir="$HOME/.agents/skills/three-kill"
+mkdir -p "$(dirname "$skill_dir")" &&
+  mkdir "$skill_dir" &&
+  cp -R skills/three-kill/. "$skill_dir/"
+```
+
+In Codex, type `$three-kill` or select `three-kill` from `/skills`. If it does not appear, restart Codex.
+
+### Claude Code
+
+```sh
+skill_dir="$HOME/.claude/skills/three-kill"
+mkdir -p "$(dirname "$skill_dir")" &&
+  mkdir "$skill_dir" &&
+  cp -R skills/three-kill/. "$skill_dir/"
+```
+
+Start a new local Claude Code session and type `/three-kill` followed by the claim to check.
+
+For example, ask either client to check: "The weekly payment report is low because the processor is dropping transactions."
 
 ## Reuse and contributions
 

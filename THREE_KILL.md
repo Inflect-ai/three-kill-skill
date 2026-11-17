@@ -36,7 +36,7 @@ For every rival, name one observation that would distinguish it from the others.
 
 ### 4. Record the verdict
 
-Use the [template](templates/three-kill-differential.md).
+Use the [template](skills/three-kill/templates/three-kill-differential.md).
 
 - **SHIPS:** the evidence supports the original claim and rules out all three rivals.
 - **REVISED:** the evidence supports a rival over the original claim and resolves the competing explanations that matter to the decision. Record the revised finding.
